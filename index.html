@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__container-logo">
+          <img src="/images/logo.svg" alt="" class="header__logo" />
+        </div>
+
+        <label for="hamburguer" class="header__label-menu">
+          <img
+            src="/images/icon-hamburger.svg"
+            alt=""
+            class="header__icon-menu"
+          />
+        </label>
+        <input type="checkbox" id="hamburguer" class="header__input" />
+
+        <div class="header__menu">
+          <ul class="menu">
+            <li class="li__item"><a href="#" class="menu__link">About</a></li>
+            <li class="li__item">
+              <a href="#" class="menu__link">Services</a>
+            </li>
+            <li class="li__item">
+              <a href="#" class="menu__link">Projects</a>
+            </li>
+            <li class="li__item"><a href="#" class="menu__link menu__link--cta">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__main">
+        <h1 class="header__tittle">We are creatives</h1>
+        <img src="/images/icon-arrow-down.svg" class="header__arrow" />
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__section main__section--1">
+        <figure class="main__container-img main__container-img--1"></figure>
+        <div class="main__article">
+          <div class="main__article--1">
+            <h2 class="main__subtittle main__subtittle--1">
+              Transform your brand
+            </h2>
+
+            <p class="main__paragraph main__paragraph--1">
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#" class="main__link main__link--decoration-color1"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section main__section--2">
+        <figure class="main__container-img main__container-img--2"></figure>
+        <div class="main__article">
+          <div class="main__article--1">
+            <h2 class="main__subtittle main__subtittle--1">
+              Stand out to the right audience
+            </h2>
+
+            <p class="main__paragraph main__paragraph--1">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#" class="main__link main__link--decoration-color2"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section main__section--3">
+        <article class="main__article main__article--2">
+          <h2 class="main__subtittle">Graphic design</h2>
+
+          <p class="main__paragraph main__paragraph--2">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </article>
+      </section>
+      <section class="main__section main__section--4">
+        <article class="main__article main__article--2">
+          <h2 class="main__subtittle">Photography</h2>
+
+          <p class="main__paragraph main__paragraph--3">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </article>
+      </section>
+
+      <div class="testimonials__container main__section--5">
+        <div class="main__testimonials-container">
+          <h3 class="main__tittle">Client testimonials</h3>
+        </div>
+
+        <div class="card__container">
+          <article class="main__testimonials-card">
+            <img src="/images/image-emily.jpg" alt="emily" class="card__img" />
+
+            <p class="card__contents">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <div class="card__footer">
+              <p class="card__name">Emily R.</p>
+              <p class="card__puesto">Marketing Director</p>
+            </div>
+          </article>
+
+          <article class="main__testimonials-card">
+            <img
+              src="/images/image-thomas.jpg"
+              alt="thomas"
+              class="card__img"
+            />
+
+            <p class="card__contents">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <div class="card__footer">
+              <p class="card__name">Thomas S.</p>
+              <p class="card__puesto">Marketing Director</p>
+            </div>
+          </article>
+
+          <article
+            class="main__testimonials-card main__testimonials-card--padding-b"
+          >
+            <img
+              src="/images/image-jennie.jpg"
+              alt="jennie"
+              class="card__img"
+            />
+
+            <p class="card__contents">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <div class="card__footer">
+              <p class="card__name">Jennie F.</p>
+              <p class="card__puesto">Business Owner</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <section class="main__gallery main__section--6">
+        <figure class="gallery__container gallery__container--1"></figure>
+
+        <figure class="gallery__container gallery__container--2"></figure>
+
+        <figure class="gallery__container gallery__container--3"></figure>
+
+        <figure class="gallery__container gallery__container--4"></figure>
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="/images/logo-2.svg" alt="logo" class="footer__logo" />
+
+      <div class="footer__container">
+        <nav class="footer__links">
+          <a href="#" class="footer__link"> About</a>
+
+          <a href="#" class="footer__link footer__link--mod">Services</a>
+
+          <a href="#" class="footer__link">Projects</a>
+        </nav>
+
+        <nav class="footer_socials">
+          <a href="#">
+            <img src="/images/icon-facebook.svg" alt="" class="social" />
+          </a>
+
+          <a href="#">
+            <img src="/images/icon-instagram.svg" alt="" class="social1" />
+          </a>
+
+          <a href="#">
+            <img src="/images/icon-twitter.svg" alt="" class="social2" />
+          </a>
+
+          <a href="#">
+            <img src="/images/icon-pinterest.svg" alt="" class="social" />
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+    <!--
+  
+  
+  
+  
+
+
+
+ 
+
+
+
+  
+
+  
+
+ 
+
+  
+
+ 
+
+ 
+  Contact
+  --></body>
+</html>
